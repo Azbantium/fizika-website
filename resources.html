@@ -1,0 +1,315 @@
+<!doctype html>
+<html class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>FIZIKA | Resources</title>
+</head>
+
+<body class="bg-slate-50 dark:bg-gray-800 font-sans">
+
+    <header id="header"
+        class="text-gray-800 dark:text-gray-300 body-font border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50 transition-all duration-300">
+        <div class="absolute inset-0 dark:bg-gray-800/80 backdrop-blur-sm"></div>
+        <div
+            class="container mx-auto flex flex-wrap px-5 py-3 flex-row items-center justify-between align-center relative">
+            <a href="index.html" class="flex title-font font-medium items-center text-gray-800 dark:text-white mb-0">
+                <span class="ml-3 text-2xl font-semibold">FIZIKA</span>
+            </a>
+            <!-- Hamburger Menu Button for small screens -->
+            <button id="menu-toggle" type="button"
+                class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                    </path>
+                </svg>
+            </button>
+            <nav id="menu" class="hidden md:ml-auto md:flex flex-wrap items-center text-base justify-center">
+                <a href="olympiads.html"
+                    class="block md:inline-block mr-6 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300 py-2 md:py-0">About
+                    Olympiads</a>
+                <a href="classes.html"
+                    class="block md:inline-block mr-6 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300 py-2 md:py-0">Classes</a>
+                <a href="resources.html"
+                    class="block md:inline-block mr-6 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300 py-2 md:py-0">Resources</a>
+                <a href="https://blog.projectfizika.com"
+                    class="block md:inline-block mr-6 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300 py-2 md:py-0">Blog</a>
+                <a href="contact.html"
+                    class="block md:inline-block mr-6 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300 py-2 md:py-0">Contact
+                    Us</a>
+
+                <button id="theme-toggle" type="button"
+                    class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
+                    <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                    </svg>
+                    <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                            fill-rule="evenodd" clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+
+            </nav>
+        </div>
+    </header>
+
+    <div class="container mx-auto px-5 py-16 text-center">
+        <h1
+            class="text-4xl sm:text-5xl sm:pb-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-500 dark:from-indigo:300 dark:to-purple-300">
+            Resources
+        </h1>
+    </div>
+
+    <section class="bg-white dark:bg-gray-900 body-font">
+        <div class="container px-5 py-12 md:py-24 mx-auto">
+            <div class="text-center mb-10 md:mb-14">
+                <h2 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 dark:text-slate-50 mb-3">SJPO Materials</h2>
+                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500 dark:text-gray-400">
+                    Handouts and worked solutions for SJPO.
+                </p>
+                <div class="flex mt-6 justify-center">
+                    <div class="w-16 h-1 rounded-full bg-indigo-500 dark:bg-indigo-400 inline-flex"></div>
+                </div>
+            </div>
+
+            <div class="max-w-4xl md:max-w-2xl mx-auto mb-16 md:mb-24">
+                <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Mechanics I</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="sjpo-resources/Core/Handouts/1. SJPO Mechanics I.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <a href="sjpo-resources/Core/Solutions/1. SJPO Mechanics I.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                        </div>
+                    </li>
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Mechanics II</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="sjpo-resources/Core/Handouts/2. SJPO Mechanics II.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <span class="text-gray-500 dark:text-gray-400">Coming soon</span>
+                        </div>
+                    </li>
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Mechanics III</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="sjpo-resources/Core/Handouts/3. SJPO Mechanics III.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <span class="text-gray-500 dark:text-gray-400">Coming soon</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="text-center mb-10 md:mb-14">
+                <h2 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 dark:text-slate-50 mb-3">SPhO Handouts</h2>
+                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500 dark:text-gray-400">
+                    Handouts and worked solutions SPhO.
+                </p>
+                <div class="flex mt-6 justify-center">
+                    <div class="w-16 h-1 rounded-full bg-indigo-500 dark:bg-indigo-400 inline-flex"></div>
+                </div>
+            </div>
+
+            <div class="max-w-4xl md:max-w-2xl mx-auto">
+                <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Math Preliminaries</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="spho-resources/Handouts/0. SPhO Math Preliminaries.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <a href="spho-resources/Solutions/0. SPhO Math Preliminaries (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                        </div>
+                    </li>
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Kinematics</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="spho-resources/Handouts/1. SPhO Kinematics.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <a href="spho-resources/Solutions/1. SPhO Kinematics (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                        </div>
+                    </li>
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Dynamics</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="spho-resources/Handouts/2. SPhO Dynamics.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <a href="spho-resources/Solutions/2. SPhO Dynamics (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                        </div>
+                    </li>
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Oscillations</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="spho-resources/Handouts/3. SPhO Oscillations.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <a href="spho-resources/Solutions/3. SPhO Oscillations (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                        </div>
+                    </li>
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Rotation</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="spho-resources/Handouts/4. SPhO Rotation.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <a href="spho-resources/Solutions/4. SPhO Rotation (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                        </div>
+                    </li>
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Gravitation</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="spho-resources/Handouts/5. SPhO Gravitation.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <a href="spho-resources/Solutions/5. SPhO Gravitation (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                        </div>
+                    </li>
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Electrostatics</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="spho-resources/Handouts/6. SPhO Electrostatics.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <a href="spho-resources/Solutions/6. SPhO Electrostatics (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                        </div>
+                    </li>
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">DC Circuits</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="spho-resources/Handouts/7. SPhO DC Circuits.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <a href="spho-resources/Solutions/7. SPhO DC Circuits (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                        </div>
+                    </li>
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Magnetism &amp; Lorentz Force</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="spho-resources/Handouts/8. SPhO Magnetism & Lorentz Force.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <a href="spho-resources/Solutions/8. SPhO Magnetostatics & Lorentz Force (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                        </div>
+                    </li>
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Electromagnetic Induction</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="spho-resources/Handouts/9. SPhO Electromagnetic Induction.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <a href="spho-resources/Solutions/9. SPhO Electromagnetic Induction (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                        </div>
+                    </li>
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">AC &amp; RLC Circuits</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="spho-resources/Handouts/10. SPhO AC & RLC Circuits.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <span class="text-gray-500 dark:text-gray-400">Coming soon</span>
+                        </div>
+                    </li>
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Ideal Gases &amp; Thermodynamic Laws</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="spho-resources/Handouts/11. SPhO Ideal Gases & Thermodynamic Laws.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <a href="spho-resources/Solutions/11. SPhO Ideal Gases & Thermodynamic Laws (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                        </div>
+                    </li>
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Heat Transfer</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="spho-resources/Handouts/12. SPhO Heat Transfer.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <a href="spho-resources/Solutions/12. SPhO Heat Transfer (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                        </div>
+                    </li>
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Waves &amp; Optics</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="spho-resources/Handouts/13. SPhO Waves & Optics.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <span class="text-gray-500 dark:text-gray-400">Coming soon</span>
+                        </div>
+                    </li>
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Special Relativity</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="spho-resources/Handouts/14. SPhO Special Relativity.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <a href="spho-resources/Solutions/14. SPhO Special Relativity (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                        </div>
+                    </li>
+                    <li class="py-5 text-center">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Quantum &amp; Nuclear Physics</h3>
+                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                            <a href="spho-resources/Handouts/15. SPhO Quantum & Nuclear Physics.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                            <span class="text-gray-500 dark:text-gray-400">Coming soon</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-gray-600 dark:text-gray-400 body-font bg-slate-50 dark:bg-gray-800">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a href="#" class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 dark:text-gray-200">
+                <span class="ml-3 text-xl">FIZIKA</span>
+            </a>
+            <p class="text-sm text-gray-500 dark:text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 dark:sm:border-gray-700 sm:py-2 sm:mt-0 mt-4">STEM Education for All
+            </p>
+
+        </div>
+    </footer>
+
+    <script>
+        // Get the theme toggle button and icons
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+        const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+
+        // Function to set the theme and update UI
+        const setTheme = (isDark) => {
+            if (isDark) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                document.documentElement.classList.add('dark');
+                themeToggleLightIcon.classList.remove('hidden');
+                themeToggleDarkIcon.classList.add('hidden');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                document.documentElement.setAttribute('data-theme', 'light');
+                document.documentElement.classList.remove('dark');
+                themeToggleDarkIcon.classList.remove('hidden');
+                themeToggleLightIcon.classList.add('hidden');
+                localStorage.setItem('theme', 'light');
+            }
+        };
+
+        // Check the initial theme on page load
+        const isDarkMode = localStorage.getItem('theme') === 'dark' ||
+            (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        setTheme(isDarkMode);
+
+        // Add click event listener to the toggle button
+        themeToggleBtn.addEventListener('click', () => {
+            const isCurrentlyDark = document.documentElement.classList.contains('dark');
+            setTheme(!isCurrentlyDark);
+        });
+    </script>
+
+    <script>
+        // Get the menu toggle button and the menu itself
+        const menuToggleBtn = document.getElementById('menu-toggle');
+        const menu = document.getElementById('menu');
+
+        // Add click event listener to the toggle button
+        menuToggleBtn.addEventListener('click', () => {
+            // First, get the live height of the header
+            const headerHeight = document.getElementById('header').offsetHeight;
+            // Then, set the top position of the menu to that height
+            menu.style.top = `${headerHeight}px`;
+
+            menu.classList.toggle('hidden');
+            menu.classList.toggle('absolute');
+            menu.classList.toggle('left-0');
+            menu.classList.toggle('w-full');
+            menu.classList.toggle('text-center');
+
+            menu.classList.toggle('dark:bg-gray-800/80');
+            menu.classList.toggle('backdrop-blur-sm');
+        });
+        // Add scroll event listener to the window
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 10) {
+                header.classList.add('shadow-lg');
+            } else {
+                header.classList.remove('shadow-lg');
+            }
+        });
+    </script>
+</body>
+
+</html>
