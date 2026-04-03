@@ -6,6 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style.css" rel="stylesheet">
     <title>FIZIKA | STEM For All</title>
+    <style>
+        .team-label {
+            letter-spacing: 0.14em;
+        }
+
+        .team-leadership {
+            display: grid;
+            gap: 0.85rem;
+            margin-top: 1.75rem;
+            justify-items: center;
+        }
+
+        .team-columns {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+        }
+
+        .team-column-list {
+            margin-top: 1.5rem;
+        }
+
+        .team-column-list li + li {
+            margin-top: 0.95rem;
+        }
+
+        @media (min-width: 40rem) {
+            .team-leadership {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                max-width: 34rem;
+                margin-left: auto;
+                margin-right: auto;
+                column-gap: 3rem;
+            }
+        }
+
+        @media (min-width: 48rem) {
+            .team-columns {
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: center;
+                gap: 5rem;
+            }
+
+            .team-column {
+                width: min(100%, 22rem);
+            }
+        }
+    </style>
 </head>
 
 <body class="bg-slate-50 dark:bg-gray-800 font-sans">
@@ -169,20 +218,20 @@
                 </p>
             </div>
             <div class="max-w-4xl mx-auto">
-                <div class="max-w-3xl mx-auto mb-14 text-center">
-                    <p class="text-xs font-semibold tracking-[0.3em] uppercase text-indigo-500 dark:text-indigo-400">Leadership</p>
+                <div class="max-w-2xl mx-auto mb-16 text-center">
+                    <p class="team-label text-xs font-semibold uppercase text-indigo-500 dark:text-indigo-400">Leadership</p>
                     <h2 class="mt-3 text-2xl font-semibold text-gray-900 dark:text-white">Co-Founders</h2>
-                    <div class="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-12">
+                    <div class="team-leadership">
                         <p class="text-lg font-medium text-gray-900 dark:text-white">Huang Haoyang</p>
                         <p class="text-lg font-medium text-gray-900 dark:text-white">Leroy Chua</p>
                     </div>
                 </div>
 
-                <div class="grid gap-8 md:grid-cols-2">
-                    <div class="text-center md:text-left">
-                        <p class="text-xs font-semibold tracking-[0.3em] uppercase text-indigo-500 dark:text-indigo-400">Team</p>
+                <div class="team-columns">
+                    <div class="team-column text-center md:text-left">
+                        <p class="team-label text-xs font-semibold uppercase text-indigo-500 dark:text-indigo-400">Team</p>
                         <h2 class="mt-3 text-2xl font-semibold text-gray-900 dark:text-white">Academic</h2>
-                        <ul class="mt-6 space-y-3">
+                        <ul class="team-column-list">
                             <li class="text-base font-medium text-gray-900 dark:text-white">Leroy Chua <span class="text-sm text-indigo-500 dark:text-indigo-400">(Head)</span></li>
                             <li class="text-base font-medium text-gray-900 dark:text-white">Oon Han</li>
                             <li class="text-base font-medium text-gray-900 dark:text-white">Huang Haoyang</li>
@@ -190,10 +239,10 @@
                         </ul>
                     </div>
 
-                    <div class="text-center md:text-left">
-                        <p class="text-xs font-semibold tracking-[0.3em] uppercase text-indigo-500 dark:text-indigo-400">Team</p>
+                    <div class="team-column text-center md:text-left">
+                        <p class="team-label text-xs font-semibold uppercase text-indigo-500 dark:text-indigo-400">Team</p>
                         <h2 class="mt-3 text-2xl font-semibold text-gray-900 dark:text-white">Events / Outreach</h2>
-                        <ul class="mt-6 space-y-3">
+                        <ul class="team-column-list">
                             <li class="text-base font-medium text-gray-900 dark:text-white">Feng Siwei <span class="text-sm text-indigo-500 dark:text-indigo-400">(Head)</span></li>
                             <li class="text-base font-medium text-gray-900 dark:text-white">Mei Xurui</li>
                             <li class="text-base font-medium text-gray-900 dark:text-white">Andy Ren</li>
