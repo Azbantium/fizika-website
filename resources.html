@@ -63,172 +63,206 @@
             class="text-4xl sm:text-5xl sm:pb-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-500 dark:from-indigo:300 dark:to-purple-300">
             Resources
         </h1>
-        <p class="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">For even more, check out <a href="https://phoxiv.org/" class="mt-4 inline-block text-lg text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium transition-colors duration-300">phoXiv</a>! </p>
+        <p class="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+            Browse our handouts by competition. For even more, check out
+            <a href="https://phoxiv.org/"
+                class="inline-block text-lg text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium transition-colors duration-300">phoXiv</a>.
+        </p>
     </div>
 
     <section class="bg-white dark:bg-gray-900 body-font">
         <div class="container px-5 py-12 md:py-24 mx-auto">
-            <div class="text-center mb-10 md:mb-14">
-                <h2 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 dark:text-slate-50 mb-3">SJPO</h2>
+            <div class="text-center mb-10 md:mb-12">
                 <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500 dark:text-gray-400">
-                    Our own handouts and worked solutions for SJPO.
+                    Select a competition below to view only the relevant handouts and worked solutions.
                 </p>
-                <div class="flex mt-6 justify-center">
-                    <div class="w-16 h-1 rounded-full bg-indigo-500 dark:bg-indigo-400 inline-flex"></div>
+            </div>
+
+            <div class="max-w-2xl mx-auto mb-10">
+                <div class="inline-flex w-full p-1 rounded-2xl bg-slate-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700"
+                    role="tablist" aria-label="Resource categories">
+                    <button type="button" id="tab-sjpo" data-resource-tab="sjpo" role="tab" aria-selected="true"
+                        aria-controls="panel-sjpo"
+                        class="resource-tab-button w-1/2 rounded-xl px-4 py-3 text-sm sm:text-base font-semibold transition-colors duration-300 bg-indigo-500 text-white shadow-sm">
+                        SJPO
+                    </button>
+                    <button type="button" id="tab-spho" data-resource-tab="spho" role="tab" aria-selected="false"
+                        aria-controls="panel-spho"
+                        class="resource-tab-button w-1/2 rounded-xl px-4 py-3 text-sm sm:text-base font-semibold transition-colors duration-300 text-gray-600 dark:text-gray-300">
+                        SPhO
+                    </button>
                 </div>
             </div>
 
-            <div class="max-w-4xl md:max-w-2xl mx-auto mb-16 md:mb-24">
-                <ul class="divide-y divide-gray-200 dark:divide-gray-700">
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Mechanics I</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="sjpo-resources/Core/Handouts/1. SJPO Mechanics I.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <a href="sjpo-resources/Core/Solutions/1. SJPO Mechanics I.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+            <div class="max-w-4xl mx-auto">
+                <div id="panel-sjpo" data-resource-panel="sjpo" role="tabpanel" aria-labelledby="tab-sjpo"
+                    class="resource-panel rounded-2xl border border-gray-200 dark:border-gray-700 bg-slate-50 dark:bg-gray-800 shadow-sm p-6 sm:p-8">
+                    <div class="text-center mb-8">
+                        <h2 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 dark:text-slate-50 mb-3">
+                            SJPO
+                        </h2>
+                        <p class="text-base leading-relaxed max-w-2xl mx-auto text-gray-500 dark:text-gray-400">
+                            Our own handouts and worked solutions for the Singapore Junior Physics Olympiad.
+                        </p>
+                        <div class="flex mt-6 justify-center">
+                            <div class="w-16 h-1 rounded-full bg-indigo-500 dark:bg-indigo-400 inline-flex"></div>
                         </div>
-                    </li>
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Mechanics II</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="sjpo-resources/Core/Handouts/2. SJPO Mechanics II.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <span class="text-gray-500 dark:text-gray-400">Coming soon</span>
-                        </div>
-                    </li>
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Mechanics III</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="sjpo-resources/Core/Handouts/3. SJPO Mechanics III.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <span class="text-gray-500 dark:text-gray-400">Coming soon</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+                    </div>
 
-            <div class="text-center mb-10 md:mb-14">
-                <h2 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 dark:text-slate-50 mb-3">SPhO</h2>
-                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500 dark:text-gray-400">
-                    Our own handouts and worked solutions for SPhO.
-                </p>
-                <div class="flex mt-6 justify-center">
-                    <div class="w-16 h-1 rounded-full bg-indigo-500 dark:bg-indigo-400 inline-flex"></div>
+                    <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Mechanics I</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="sjpo-resources/Core/Handouts/1. SJPO Mechanics I.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <a href="sjpo-resources/Core/Solutions/1. SJPO Mechanics I.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                            </div>
+                        </li>
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Mechanics II</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="sjpo-resources/Core/Handouts/2. SJPO Mechanics II.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <span class="text-gray-500 dark:text-gray-400">Coming soon</span>
+                            </div>
+                        </li>
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Mechanics III</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="sjpo-resources/Core/Handouts/3. SJPO Mechanics III.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <span class="text-gray-500 dark:text-gray-400">Coming soon</span>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-            </div>
 
-            <div class="max-w-4xl md:max-w-2xl mx-auto">
-                <ul class="divide-y divide-gray-200 dark:divide-gray-700">
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Math Preliminaries</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="spho-resources/Handouts/0. SPhO Math Preliminaries.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <a href="spho-resources/Solutions/0. SPhO Math Preliminaries (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                <div id="panel-spho" data-resource-panel="spho" role="tabpanel" aria-labelledby="tab-spho" hidden
+                    class="resource-panel rounded-2xl border border-gray-200 dark:border-gray-700 bg-slate-50 dark:bg-gray-800 shadow-sm p-6 sm:p-8">
+                    <div class="text-center mb-8">
+                        <h2 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 dark:text-slate-50 mb-3">
+                            SPhO
+                        </h2>
+                        <p class="text-base leading-relaxed max-w-2xl mx-auto text-gray-500 dark:text-gray-400">
+                            Our own handouts and worked solutions for the Singapore Physics Olympiad.
+                        </p>
+                        <div class="flex mt-6 justify-center">
+                            <div class="w-16 h-1 rounded-full bg-indigo-500 dark:bg-indigo-400 inline-flex"></div>
                         </div>
-                    </li>
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Kinematics</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="spho-resources/Handouts/1. SPhO Kinematics.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <a href="spho-resources/Solutions/1. SPhO Kinematics (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
-                        </div>
-                    </li>
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Dynamics</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="spho-resources/Handouts/2. SPhO Dynamics.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <a href="spho-resources/Solutions/2. SPhO Dynamics (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
-                        </div>
-                    </li>
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Oscillations</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="spho-resources/Handouts/3. SPhO Oscillations.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <a href="spho-resources/Solutions/3. SPhO Oscillations (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
-                        </div>
-                    </li>
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Rotation</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="spho-resources/Handouts/4. SPhO Rotation.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <a href="spho-resources/Solutions/4. SPhO Rotation (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
-                        </div>
-                    </li>
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Gravitation</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="spho-resources/Handouts/5. SPhO Gravitation.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <a href="spho-resources/Solutions/5. SPhO Gravitation (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
-                        </div>
-                    </li>
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Electrostatics</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="spho-resources/Handouts/6. SPhO Electrostatics.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <a href="spho-resources/Solutions/6. SPhO Electrostatics (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
-                        </div>
-                    </li>
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">DC Circuits</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="spho-resources/Handouts/7. SPhO DC Circuits.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <a href="spho-resources/Solutions/7. SPhO DC Circuits (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
-                        </div>
-                    </li>
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Magnetism &amp; Lorentz Force</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="spho-resources/Handouts/8. SPhO Magnetism & Lorentz Force.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <a href="spho-resources/Solutions/8. SPhO Magnetostatics & Lorentz Force (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
-                        </div>
-                    </li>
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Electromagnetic Induction</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="spho-resources/Handouts/9. SPhO Electromagnetic Induction.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <a href="spho-resources/Solutions/9. SPhO Electromagnetic Induction (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
-                        </div>
-                    </li>
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">AC &amp; RLC Circuits</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="spho-resources/Handouts/10. SPhO AC & RLC Circuits.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <span class="text-gray-500 dark:text-gray-400">Coming soon</span>
-                        </div>
-                    </li>
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Ideal Gases &amp; Thermodynamic Laws</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="spho-resources/Handouts/11. SPhO Ideal Gases & Thermodynamic Laws.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <a href="spho-resources/Solutions/11. SPhO Ideal Gases & Thermodynamic Laws (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
-                        </div>
-                    </li>
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Heat Transfer</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="spho-resources/Handouts/12. SPhO Heat Transfer.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <a href="spho-resources/Solutions/12. SPhO Heat Transfer (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
-                        </div>
-                    </li>
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Waves &amp; Optics</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="spho-resources/Handouts/13. SPhO Waves & Optics.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <span class="text-gray-500 dark:text-gray-400">Coming soon</span>
-                        </div>
-                    </li>
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Special Relativity</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="spho-resources/Handouts/14. SPhO Special Relativity.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <a href="spho-resources/Solutions/14. SPhO Special Relativity (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
-                        </div>
-                    </li>
-                    <li class="py-5 text-center">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Quantum &amp; Nuclear Physics</h3>
-                        <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
-                            <a href="spho-resources/Handouts/15. SPhO Quantum & Nuclear Physics.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
-                            <span class="text-gray-500 dark:text-gray-400">Coming soon</span>
-                        </div>
-                    </li>
-                </ul>
+                    </div>
+
+                    <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Math Preliminaries</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="spho-resources/Handouts/0. SPhO Math Preliminaries.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <a href="spho-resources/Solutions/0. SPhO Math Preliminaries (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                            </div>
+                        </li>
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Kinematics</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="spho-resources/Handouts/1. SPhO Kinematics.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <a href="spho-resources/Solutions/1. SPhO Kinematics (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                            </div>
+                        </li>
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Dynamics</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="spho-resources/Handouts/2. SPhO Dynamics.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <a href="spho-resources/Solutions/2. SPhO Dynamics (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                            </div>
+                        </li>
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Oscillations</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="spho-resources/Handouts/3. SPhO Oscillations.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <a href="spho-resources/Solutions/3. SPhO Oscillations (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                            </div>
+                        </li>
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Rotation</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="spho-resources/Handouts/4. SPhO Rotation.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <a href="spho-resources/Solutions/4. SPhO Rotation (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                            </div>
+                        </li>
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Gravitation</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="spho-resources/Handouts/5. SPhO Gravitation.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <a href="spho-resources/Solutions/5. SPhO Gravitation (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                            </div>
+                        </li>
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Electrostatics</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="spho-resources/Handouts/6. SPhO Electrostatics.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <a href="spho-resources/Solutions/6. SPhO Electrostatics (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                            </div>
+                        </li>
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">DC Circuits</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="spho-resources/Handouts/7. SPhO DC Circuits.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <a href="spho-resources/Solutions/7. SPhO DC Circuits (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                            </div>
+                        </li>
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Magnetism &amp; Lorentz Force</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="spho-resources/Handouts/8. SPhO Magnetism &amp; Lorentz Force.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <a href="spho-resources/Solutions/8. SPhO Magnetostatics &amp; Lorentz Force (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                            </div>
+                        </li>
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Electromagnetic Induction</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="spho-resources/Handouts/9. SPhO Electromagnetic Induction.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <a href="spho-resources/Solutions/9. SPhO Electromagnetic Induction (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                            </div>
+                        </li>
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">AC &amp; RLC Circuits</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="spho-resources/Handouts/10. SPhO AC &amp; RLC Circuits.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <span class="text-gray-500 dark:text-gray-400">Coming soon</span>
+                            </div>
+                        </li>
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Ideal Gases &amp; Thermodynamic Laws</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="spho-resources/Handouts/11. SPhO Ideal Gases &amp; Thermodynamic Laws.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <a href="spho-resources/Solutions/11. SPhO Ideal Gases &amp; Thermodynamic Laws (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                            </div>
+                        </li>
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Heat Transfer</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="spho-resources/Handouts/12. SPhO Heat Transfer.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <a href="spho-resources/Solutions/12. SPhO Heat Transfer (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                            </div>
+                        </li>
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Waves &amp; Optics</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="spho-resources/Handouts/13. SPhO Waves &amp; Optics.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <span class="text-gray-500 dark:text-gray-400">Coming soon</span>
+                            </div>
+                        </li>
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Special Relativity</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="spho-resources/Handouts/14. SPhO Special Relativity.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <a href="spho-resources/Solutions/14. SPhO Special Relativity (Solutions).pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Solution</a>
+                            </div>
+                        </li>
+                        <li class="py-5 text-center">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Quantum &amp; Nuclear Physics</h3>
+                            <div class="mt-3 flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm md:text-base">
+                                <a href="spho-resources/Handouts/15. SPhO Quantum &amp; Nuclear Physics.pdf" class="text-indigo-500 dark:text-indigo-400 hover:text-indigo-600 dark:hover:text-indigo-300 font-medium">Handout</a>
+                                <span class="text-gray-500 dark:text-gray-400">Coming soon</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -307,6 +341,48 @@
                 header.classList.add('shadow-lg');
             } else {
                 header.classList.remove('shadow-lg');
+            }
+        });
+    </script>
+
+    <script>
+        const resourceTabs = document.querySelectorAll('[data-resource-tab]');
+        const resourcePanels = document.querySelectorAll('[data-resource-panel]');
+
+        const setActiveResourceTab = (tabName) => {
+            resourceTabs.forEach((tab) => {
+                const isActive = tab.dataset.resourceTab === tabName;
+                tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
+                tab.classList.toggle('bg-indigo-500', isActive);
+                tab.classList.toggle('text-white', isActive);
+                tab.classList.toggle('shadow-sm', isActive);
+                tab.classList.toggle('text-gray-600', !isActive);
+                tab.classList.toggle('dark:text-gray-300', !isActive);
+            });
+
+            resourcePanels.forEach((panel) => {
+                panel.hidden = panel.dataset.resourcePanel !== tabName;
+            });
+        };
+
+        const initialTab = ['sjpo', 'spho'].includes(window.location.hash.slice(1))
+            ? window.location.hash.slice(1)
+            : 'sjpo';
+
+        setActiveResourceTab(initialTab);
+
+        resourceTabs.forEach((tab) => {
+            tab.addEventListener('click', () => {
+                const { resourceTab } = tab.dataset;
+                setActiveResourceTab(resourceTab);
+                history.replaceState(null, '', `#${resourceTab}`);
+            });
+        });
+
+        window.addEventListener('hashchange', () => {
+            const hashTab = window.location.hash.slice(1);
+            if (['sjpo', 'spho'].includes(hashTab)) {
+                setActiveResourceTab(hashTab);
             }
         });
     </script>
