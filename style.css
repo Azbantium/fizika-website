@@ -532,7 +532,7 @@
     background-color: var(--color-indigo-500);
   }
   .bg-slate-50 {
-    background-color: var(--color-slate-50);
+    background-color: rgb(241 245 249 / 1);
   }
   .bg-white {
     background-color: var(--color-white);
